@@ -11,7 +11,7 @@ export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}> </Route>
+        <Route path="/" element={<PeoplePage />}> </Route>
         <Route path="/people/:id" element={<PersonPage />} />
         <Route path="*" element={<h2>404</h2>} />
       </Routes>

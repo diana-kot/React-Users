@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PersonPage from "@containers/PersonPage";
 import PeopleList from "@components/PeoplePage/PeopleList";
 import routesConfig from "@routes/routesConfig";
-
+import { Router } from "@routes/routesConfig";
 import Button from "@components/Button/Button";
 import PeoplePage from "@containers/PeoplePage";
 
@@ -23,7 +23,7 @@ const App = () => {
               <Button text="по компании" onClick={handleChangePrev} />
             </div>
             <div className={styles.content__right}>
-              <PeoplePage />
+              <Router></Router>
             </div>
           </div>
         </main>
