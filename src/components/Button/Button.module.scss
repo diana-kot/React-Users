@@ -5,15 +5,15 @@
   border-radius: 5px;
   font-size: 12px;
   flex: 0 0 auto;
-  max-width: 105px;
+  max-width: 116px;
   color: $colorWhite;
-  line-height: 12px;
+  line-height: 14px;
   min-height: 24px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 5px 15px;
+  padding: 6px 16px;
   transition: background-color 0.3s ease 0s;
   &:hover {
     background-color: $colorBtnHover;

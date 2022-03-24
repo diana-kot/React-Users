@@ -32,7 +32,8 @@ const PeoplePage = () => {
 
   return (
     <>
-    <div className={styles.page__container}>
+    <div className="page__container">
+     
     <h2 className="title">Список пользователей</h2>
       {people && <PeopleList people={people} />}
      

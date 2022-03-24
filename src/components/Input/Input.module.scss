@@ -1,0 +1,53 @@
+@import "@styles/index.scss";
+
+.wrapper__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  
+  
+}
+
+.labelsWrapper {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+  }
+
+.input {
+  width: 211px;
+  padding: 5px 10px;
+  padding-right: calc(35px + 15px);
+  border: 1px solid;
+  border-color: $colorGray;
+  border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+  color: $colorGrayInput;
+  &:focus {
+    border-color: $colorGray;
+    color: $colorTextDark;
+  }
+  &:first-child {
+    margin-top: 32px;
+  }
+}
+
+.input.error {
+  border-color: #d43728;
+  background-color: rgba(212, 55, 40, 0.2);
+}
+
+.inputError {
+    margin-top: 5px;
+    color: #D43728;
+    font-size: 12px;
+  }
+  
+
+
+
+
+

@@ -1,0 +1,40 @@
+@import "@styles/index.scss";
+
+.wrapper__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid $colorLight;
+  border-radius: 8px;
+  padding-left: 12px;
+  width: 438px;
+  padding-top: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textarea {
+  min-height: 55px;
+  width: 420px;
+  border-radius: 5px;
+  border: 1px solid $colorGray;
+  color: $colorGrayInput;
+  margin-bottom: 18px;
+  &:focus {
+    border-color: $colorGray;
+    color: $colorTextDark;
+  }
+}
+.textarea__label {
+  font-size: 8px;
+}
+
+.b {
+  width: 600px;
+  color: red;
+}
