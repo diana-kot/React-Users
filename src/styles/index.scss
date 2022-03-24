@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;500&display=swap");
+
+@import "./null.scss";
+
+// VARIABLES
+
+$widthSite: 603px;
+$widthSiteSml: 736px;
+$maxWidth: 665px;
+$widthRightSide: 513px;
+$widthLeftSide: 152px;
+
+$fontFamilyMain: "Roboto";
+$fontSize: 11px;
+$colorTextDark: #000000;
+$colorTextLight: #a3a3a3;
+$colorTextLink: #4b51ef;
+
+$colorBtn: #4B51EF;
+$colorBtnHover: #0d1183;
+$colorWhite: #fff;
+$colorGray: #BDBDBD;
+$colorGrayLight: #E5E5E5;
+$colorLight: #F3F3F3;
+
+
+// GENERAL
+
+body {
+  height: 100%;
+  line-height: 14px;
+  font-weight: normal;
+  color: $colorTextDark;
+  font-family: $fontFamilyMain;
+  font-size: $fontSize;
+  background-color: $colorGrayLight;
+}
+
+img {
+  display: block;
+}
+
+
+
+  .title {
+    color: $colorTextDark;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-left: 30px;
+    margin-bottom: 17px;
+  }

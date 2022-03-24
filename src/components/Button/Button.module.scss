@@ -1,0 +1,21 @@
+@import "@styles/index.scss";
+
+.button {
+  background-color: $colorBtn;
+  border-radius: 5px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  max-width: 105px;
+  color: $colorWhite;
+  line-height: 12px;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 15px;
+  transition: background-color 0.3s ease 0s;
+  &:hover {
+    background-color: $colorBtnHover;
+  }
+}

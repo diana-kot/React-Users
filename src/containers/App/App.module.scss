@@ -1,0 +1,41 @@
+@import "@styles/index.scss";
+
+.wrapper {
+  min-height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding-left: calc(50% - #{$maxWidth / 2});
+  padding-right: calc(50% - #{$maxWidth / 2});
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: $widthLeftSide $widthRightSide;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  gap: 10px;
+  background-color: $colorGray;
+}
+
+.content__right {
+  background-color: $colorWhite;
+  // border: 1px solid black;
+}
+
+.content__title {
+  font-style: 12px;
+  margin-top: 35px;
+}
